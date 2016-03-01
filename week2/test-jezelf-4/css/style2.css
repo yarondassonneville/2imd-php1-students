@@ -1,0 +1,107 @@
+html{ width: 100%; height: 100%; }
+	body{ 
+		background-image: url(../images/background.jpg);
+		background-size: cover; 
+		width: 100%;
+		height: 100%;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+
+	header{
+		margin-top: 200px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 30%;
+		float: left;
+	}
+
+	header h1{ color: #fff; font-size: 26px; font-weight: normal;margin-bottom: 0em; text-shadow: 1px 1px 0 #000;}
+	header h2{ color: #fff; font-size: 20px; font-weight: normal;margin-top: 0em; text-shadow: 1px 1px 0 #000}
+
+	#newpost
+	{
+		padding: 10px 2.5%;
+		background-color: #f5f5f5;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+
+	#container{ width: 50%; margin: 0 auto}
+	#newpost h2{ font-weight: normal; font-size: 18px; border-bottom: 1px solid #e2e2e2; }
+	#newpost input, #login input{ display: block; width: 70%; margin-bottom: 10px; border-radius:5px; border: 1px solid #cccccc; padding: 5px; }
+	#newpost input[type=submit]{ background-color: #fdbd2d; border: 1px solid #fd9e28; border-radius: 5px; width: 200px; font-size: 14px; font-weight: bold; text-shadow: 1px 1px 0 #fee2bf;}
+	#newpost input[type=submit]{ display: inline;background-color: #2bb6ea; border: 1px solid #2092ca; border-radius: 5px; width: 100px; font-size: 14px; color: #fff; font-weight: bold; text-shadow: -1px -1px 0 #2092ca;}
+	#newpost input[type=checkbox]{ display: inline; width: auto; }
+
+	#tweets
+	{
+		margin-top: 20px;
+		padding-top: 20px;
+		background-color: #f5f5f5;
+		
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	#tweets h2{ margin-bottom: 0;color: #333333; font-size: 20px; font-weight: normal;margin-top: 0em; text-shadow: 1px 1px 0 #fff; padding-left: 20px;}
+
+	#tweets ul{margin-top: 0; padding-left: 0; }
+	#tweets ul li{background-color: #f5f5f5; padding: 5px 2.5%; list-style-type: none; border-top: 1px solid #dddddd; font-size: 15px; float: left; width: 95%;}
+	#tweets ul li p{ padding: 5px 10%; }
+	#tweets ul li img{margin-right: 10px;}
+	nav{background-color: #2d2d2d; padding: 8px 10px; text-align: right; }
+	nav a{ color: #bbbbbb; font-size: 14px; text-decoration: none;} 
+	label{ color: #999999; font-size: 14px; display: block }
+	textarea { width: 98%; height: 60px; margin-bottom: 10px;}
+	p{ padding: 10px 20px; }
+	#tweets ul li span{font-style: italic;}
+	.avatar{ float: left; width: 60px; height: 60px; border-radius: 5px;}
+	#loading{display:none;}
+	.clearfix:after
+	{
+		content: ".";
+	    display: block;
+	    height: 0;
+	    clear: both;
+	    visibility: hidden;
+	}
+
+	.error
+	{
+		background-color: #f2dede;
+		color: #a94442;
+		border-color: #ebccd1;
+		padding: 10px;
+		border-radius: 5px;
+		margin-top: 20px;
+		display: none;
+	}
+
+	#charsLeft
+	{
+		font-size: 14px;
+	}
+
+	.instructions{
+		margin-top: 20px;
+	}
+
+	.instructions ul li
+	{
+		color: #FFF;
+		line-height: 1.4em;
+		text-shadow: 1px 1px 0 #000;
+		margin-bottom: 10px;
+	}
+
+	nav ul li{
+		display: inline;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #BBB;
+	}
+
