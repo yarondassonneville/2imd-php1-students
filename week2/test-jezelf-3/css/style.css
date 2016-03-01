@@ -1,0 +1,24 @@
+img{
+    width: 150px;
+}
+
+#productdetail img{
+    width: 300px;
+}
+
+#productdetail, #cart, #cart li{
+    text-align: left;
+}
+
+#cart{
+    margin-top: 40px;
+}
+
+#productdetail div{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+li{
+    font-weight: bold;
+}
