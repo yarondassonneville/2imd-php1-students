@@ -1,0 +1,23 @@
+#basket div{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#add-to-basket{
+    margin-top: 10px;
+}
+
+#message{
+    -webkit-animation: knipper 0.5s linear 2, verdwijn 3s linear ;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    max-width: 525px;
+}
+
+@-webkit-keyframes knipper {
+    to{ background-color: red }
+}
+
+@-webkit-keyframes verdwijn {
+    to{display: none;}
+}
