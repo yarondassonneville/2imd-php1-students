@@ -15,3 +15,4 @@ Updating and improving solutions that are already in this repository is allowed 
 Important notes:
 - create one pull request pér solution (don't throw all solutions in one big pull request)
 - include an SQL dump with table structure and data in a folder called "SQL" with name import.sql
+- read these tips, especially point 1 and 2: http://blog.ploeh.dk/2015/01/15/10-tips-for-better-pull-requests/
