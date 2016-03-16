@@ -45,8 +45,7 @@ class User {
                 $hash = $result['password'];
 
                 if(password_verify($password, $hash)) {
-                    session_start();
-                    $_SESSION["user_id"] = $result["user_id"];
+                    $this->createSession($result['user_id']);
                     return true;
                 } else{
                     return false;
@@ -70,5 +69,10 @@ class User {
         else {
             throw new Exception("Please fill in all fields");
         }
+    }
+
+    private function createSession($id) {
+        session_start();
+        $_SESSION["user_id"] = $id;
     }
 }

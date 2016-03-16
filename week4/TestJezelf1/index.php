@@ -10,7 +10,6 @@ if(!empty($_POST)){
             $user->Email = $_POST["email"];
             $user->Password = $_POST["passwordLogin"];
             if($user->canLogin()){
-                echo "yesy";
                 $_SESSION['loggedin'] = true;
                 header('Location: createpost.php');
             }  else {

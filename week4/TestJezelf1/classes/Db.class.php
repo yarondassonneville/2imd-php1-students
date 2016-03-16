@@ -1,6 +1,6 @@
 <?php
 
-class Db {
+class Db extends PDO{
 
     private static $conn;
     public static function getInstance() {

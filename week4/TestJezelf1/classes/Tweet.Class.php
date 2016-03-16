@@ -34,7 +34,7 @@ class Tweet {
     }
     public function GetAll() {
         $PDO =  Db::getInstance();
-        $stmt = $PDO->prepare("SELECT * FROM tweets WHERE user_id = :user_id ");
+        $stmt = $PDO->prepare("SELECT * FROM tweets WHERE user_id = :user_id ORDER BY tweet_id DESC");
         $stmt->bindValue(":user_id", $_SESSION['user_id'], PDO::PARAM_INT);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
